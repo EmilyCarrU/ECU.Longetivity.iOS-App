@@ -197,14 +197,14 @@
 		2D2EBE6418ECD78B00585C0A /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
 		2D2EBE6F18ECE41500585C0A /* sitToStand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitToStand.png; sourceTree = "<group>"; };
 		2D2EBE7118ECE41C00585C0A /* sitToStand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sitToStand@2x.png"; sourceTree = "<group>"; };
-		2D58111018C819C700B65C26 /* longevity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longevity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D58111018C819C700B65C26 /* longetivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longetivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D58111318C819C700B65C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D58111518C819C700B65C26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2D58111718C819C700B65C26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2D58111B18C819C700B65C26 /* longevity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "longevity-Info.plist"; sourceTree = "<group>"; };
+		2D58111B18C819C700B65C26 /* longetivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "longetivity-Info.plist"; sourceTree = "<group>"; };
 		2D58111D18C819C700B65C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D58111F18C819C700B65C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D58112118C819C700B65C26 /* longevity.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longevity.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		2D58112118C819C700B65C26 /* longetivity.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longetivity.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		2D58112218C819C700B65C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D58112318C819C700B65C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2D58112E18C819C700B65C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -424,7 +424,7 @@
 		2D58111118C819C700B65C26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D58111018C819C700B65C26 /* longevity.app */,
+				2D58111018C819C700B65C26 /* longetivity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -457,10 +457,10 @@
 				2D58112218C819C700B65C26 /* AppDelegate.h */,
 				2D58112318C819C700B65C26 /* AppDelegate.m */,
 				2D58112E18C819C700B65C26 /* Images.xcassets */,
-				2D58111B18C819C700B65C26 /* longevity-Info.plist */,
+				2D58111B18C819C700B65C26 /* longetivity-Info.plist */,
 				2D58111C18C819C700B65C26 /* InfoPlist.strings */,
 				2D58111F18C819C700B65C26 /* main.m */,
-				2D58112118C819C700B65C26 /* longevity.temp_caseinsensitive_rename-Prefix.pch */,
+				2D58112118C819C700B65C26 /* longetivity.temp_caseinsensitive_rename-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -835,9 +835,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D58110F18C819C700B65C26 /* longevity */ = {
+		2D58110F18C819C700B65C26 /* longetivity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "longevity" */;
+			buildConfigurationList = 2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "longetivity" */;
 			buildPhases = (
 				2D58110C18C819C700B65C26 /* Sources */,
 				2D58110D18C819C700B65C26 /* Frameworks */,
@@ -847,9 +847,9 @@
 			);
 			dependencies = (
 			);
-			name = longevity;
+			name = longetivity;
 			productName = Longevity;
-			productReference = 2D58111018C819C700B65C26 /* longevity.app */;
+			productReference = 2D58111018C819C700B65C26 /* longetivity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -866,7 +866,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longevity" */;
+			buildConfigurationList = 2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longetivity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -879,7 +879,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D58110F18C819C700B65C26 /* longevity */,
+				2D58110F18C819C700B65C26 /* longetivity */,
 			);
 		};
 /* End PBXProject section */
@@ -1185,12 +1185,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Longevity/longevity.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "Longevity/longevity-Info.plist";
-				PRODUCT_NAME = longevity;
+				GCC_PREFIX_HEADER = "Longevity/longetivity.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "Longevity/longetivity-Info.plist";
+				PRODUCT_NAME = longetivity;
 				PROVISIONING_PROFILE = "e514ebfb-f8e7-4cb5-8066-5e71aa28d19b";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -1202,12 +1202,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Longevity/longevity.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "Longevity/longevity-Info.plist";
-				PRODUCT_NAME = longevity;
+				GCC_PREFIX_HEADER = "Longevity/longetivity.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "Longevity/longetivity-Info.plist";
+				PRODUCT_NAME = longetivity;
 				PROVISIONING_PROFILE = "e514ebfb-f8e7-4cb5-8066-5e71aa28d19b";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -1217,7 +1217,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longevity" */ = {
+		2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longetivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D58114318C819C700B65C26 /* Debug */,
@@ -1226,7 +1226,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "longevity" */ = {
+		2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "longetivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D58114618C819C700B65C26 /* Debug */,
