@@ -53,7 +53,7 @@
                     [UIImage imageNamed:@"custom.png"],
                     nil];
     
-    NSLog(@"Balance Is %i \n", [BalanceArray count]);
+    NSLog(@"Balance Is %lu \n", (unsigned long)[BalanceArray count]);
     
     StrengthArray = [NSArray arrayWithObjects:
                      [UIImage imageNamed:@"strength_1.png"],
@@ -328,7 +328,7 @@
 
 - (void) setTableDetail:(NSInteger)tableRow {
     
-    NSLog(@"setTableDetail for %i", tableRow);
+    NSLog(@"setTableDetail for %li", (long)tableRow);
     
     self.detailDescriptionLabel.text = [ExerciseTitle objectAtIndex:tableRow];
     self.exerciseDescriptionLabel.text = [ExerciseDetail objectAtIndex:tableRow] ;
@@ -347,7 +347,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     NSLog(@"numberOfRowsInSection");
-    NSLog(@"Balance Is %i \n", [BalanceArray count]);
+    NSLog(@"Balance Is %lu \n", (unsigned long)[BalanceArray count]);
     return [BalanceArray count];
 }
 
